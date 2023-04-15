@@ -20,6 +20,7 @@
 
 import Route from "@ioc:Adonis/Core/Route";
 import authRoutes from "../routes/authRoutes";
+import firstAidArticleRoutes from "../routes/firstAidArticleRoutes";
 
 Route.get("/", async () => {
     return { hello: "world" };
@@ -27,4 +28,5 @@ Route.get("/", async () => {
 
 Route.group(() => {
     authRoutes();
+    firstAidArticleRoutes();
 }).prefix("api/");
