@@ -30,6 +30,7 @@
         "mysql2": "^3.2.0",
         "proxy-addr": "^2.0.7",
         "reflect-metadata": "^0.1.13",
+        "slugify": "^1.6.6",
         "source-map-support": "^0.5.21",
         "uuidv4": "^6.2.13"
     }
